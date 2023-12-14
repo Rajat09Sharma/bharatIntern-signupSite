@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(25deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 92.8vh;
+}
+
+.title-heading{
+  color: #A683E3;
+}
+
+.box{
+    width:60%;
+    margin: 50px auto;
+    padding: 70px;
+    background-color: #fff;
+    box-shadow:  inset 0 -3em 3em #A683E3,
+    0 0  0 2px #A683E3,
+    0.3em 0.3em 1em #A683E3;
+}
+
+.image{
+    background-image: url(https://470644.smushcdn.com/2097625/wp-content/uploads/2022/03/essential-web-pages-every-great-website-needs.jpeg?lossy=0&strip=1&webp=1);
+    background-size: 1000px;
+}
+
+.form-signup {
+    max-width: 370px;
+    padding: 15px;
+  }
+  
+  .form-signup .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .middle{
+    border-radius: 0;
+    margin-bottom: -1px;
+  }
+  
+  .bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+.container{
+    position: relative;
+}
+
+button{
+  background-color: #A683E3;
+  color: #fff;
+}
+
+.mail-image{
+    position: absolute;
+    top:20px;
+    right:45px;
+    width: 70%;
+    border-radius: 5%;
+}
+
+.footer{
+  margin-top: 4rem;
+  text-align: left;
+  margin-left: 100px;
+}
+
+@media (max-width:1160px) {
+  .container{
+    display: none;
+    height: 0;
+    width: 0;
+  }
+  .box{
+    padding: 0;
+  }
+  /* .box{
+    width: 90%;
+  }
+  .form-signup{
+    width: 90%;
+  }
+  #postbox-img{
+    display: none;
+  }
+   */
+}
+
