@@ -19,10 +19,6 @@ body{
     0.3em 0.3em 1em #A683E3;
 }
 
-.image{
-    background-image: url(https://470644.smushcdn.com/2097625/wp-content/uploads/2022/03/essential-web-pages-every-great-website-needs.jpeg?lossy=0&strip=1&webp=1);
-    background-size: 1000px;
-}
 
 .form-signup {
     max-width: 370px;
@@ -51,7 +47,7 @@ body{
   }
 
 .container{
-    position: relative;
+     padding: 0;
 }
 
 button{
@@ -59,38 +55,35 @@ button{
   color: #fff;
 }
 
-.mail-image{
-    position: absolute;
-    top:20px;
-    right:45px;
-    width: 70%;
+.container .mail-image{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
     border-radius: 5%;
 }
 
-.footer{
-  margin-top: 4rem;
-  text-align: left;
-  margin-left: 100px;
+p{
+  margin: 2rem auto 0 auto;
 }
 
-@media (max-width:1160px) {
-  .container{
+@media (max-width:992px) {
+  div.container{
     display: none;
-    height: 0;
-    width: 0;
+    /* height: 0;
+    width: 0; */
+  }
+  img{
+    display: none;
   }
   .box{
-    padding: 0;
+    padding: 30px;
   }
-  /* .box{
-    width: 90%;
+  button{
+    margin-bottom: 10px;
   }
-  .form-signup{
-    width: 90%;
+  p{
+    /* display: inline; */
+    margin: 0 auto 50px auto;
   }
-  #postbox-img{
-    display: none;
-  }
-   */
 }
 
